@@ -1,0 +1,30 @@
+@import "./utils/variables";
+@import "./utils/functions";
+@import "./utils/mixins";
+@import "./utils/extensions";
+
+@import "./base/base";
+@import "./base/typography";
+
+@import "./components/buttons";
+
+@import "./layout/header";
+@import "./layout/nav";
+@import "./layout/container";
+@import "./layout/form";
+
+@import "./pages/app.styles.scss";
+
+@import "./abstracts/colors";
+
+.cuadroapp {
+  background-color: $moradooscuro;
+  border-color: rgba(170, 66, 199, 0.682);
+  border-style: solid;
+  margin-top: 100px;
+  margin-left: 3%;
+  padding-bottom: 20px;
+  border-radius: 15px;
+  height: auto;
+  width: 758px;
+}

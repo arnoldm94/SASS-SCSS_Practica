@@ -1,0 +1,28 @@
+@import "../abstracts/colors.scss";
+.Task {
+  display: flex;
+  /*   width: 75;
+  height: 432; */
+  li {
+    background-color: $moradomasoscuro;
+    border-color: rgba(170, 66, 199, 0.682);
+    border-style: solid;
+    border-radius: 15px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    padding-left: 1%;
+    padding-right: 1%;
+    width: 100%;
+
+    display: flex;
+    gap: 30px;
+    .comment {
+      flex-grow: 1;
+    }
+    .subrayado {
+      text-decoration: line-through;
+    }
+  }
+}
